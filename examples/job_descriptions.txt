@@ -1,0 +1,23 @@
+Job Id              1089843540111562
+Experience          5 to 15 Years
+Qualifications      M.Tech
+Salary Range        $59K-$99K
+location            Douglas
+Country             Isle of Man
+latitude            54.2361
+longitude           -4.5481
+Work Type           Intern
+Company Size        26801
+Job Posting Date    2022-04-24
+Preference          Female
+Contact Person      Brandon Cunningham
+Contact             001-381-930-7517x737
+Job Title           Digital Marketing Specialist
+Role                Social Media Manager
+Job Portal          Snagajob
+Job Description     "Social Media Managers oversee an organizations social media presence. They create and schedule content, engage with followers, and analyze social media metrics to drive brand awareness and engagement."
+Benefits            "{'Flexible Spending Accounts (FSAs), Relocation Assistance, Legal Assistance, Employee Recognition Programs, Financial Counseling'}"
+skills              "Social media platforms (e.g., Facebook, Twitter, Instagram) Content creation and scheduling Social media analytics and insights Community engagement Paid social advertising"
+Responsibilities    "Manage and grow social media accounts, create engaging content, and interact with the online community. Develop social media content calendars and strategies. Monitor social media trends and engagement metrics."
+Company             Icahn Enterprises
+Company Profile     "{""Sector"":""Diversified"",""Industry"":""Diversified Financials"",""City"":""Sunny Isles Beach"",""State"":""Florida"",""Zip"":""33160"",""Website"":""www.ielp.com"",""Ticker"":""IEP"",""CEO"":""David Willetts""}"
