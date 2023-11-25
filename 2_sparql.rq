@@ -1,0 +1,47 @@
+# Query 1
+
+PREFIX ns1: <http://schema.org/>
+SELECT ?country (AVG(?minSalary) as ?averageSalary) (COUNT(?job) AS ?jobCount)
+WHERE {
+  ?job a <http://ex.org/Job> ;
+       ns1:minSalary ?minSalary ;
+       ns1:country ?country .
+}
+GROUP BY ?country
+ORDER BY DESC(?averageSalary)
+
+# Query 2
+
+PREFIX ns1: <http://schema.org/>
+SELECT ?country ?role (MAX(?averageSalary) AS ?highestAverageSalary) (SUM(?jobCount) AS ?totalJobs)
+WHERE {
+  {
+    SELECT ?country ?role (AVG(?minSalary) AS ?averageSalary) (COUNT(?job) AS ?jobCount)
+    WHERE {
+      ?job a <http://ex.org/Job> ;
+           ns1:minSalary ?minSalary ;
+           ns1:country ?country ;
+           ns1:role ?role .
+    }
+    GROUP BY ?country ?role
+  }
+}
+GROUP BY ?country ?role
+ORDER BY ?country DESC(?highestAverageSalary)
+
+# Query 3
+
+PREFIX ns1: <http://schema.org/>
+SELECT ?country ?company (COUNT(?job) AS ?numberOfJobs) (AVG(?minSalary) AS ?averageSalary)
+WHERE {
+  ?job a <http://ex.org/Job> ;
+       ns1:company ?company ;
+       ns1:minSalary ?minSalary ;
+       ns1:country ?country .
+}
+GROUP BY ?country ?company
+ORDER BY ?country ?company
+
+# Query 4
+
+

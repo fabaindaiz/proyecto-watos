@@ -1,0 +1,45 @@
+62793
+	
+<http://ex.org/country/Serbia>
+	
+Desktop Support Technician
+	
+"63454.545454545454545454545455"^^<http://www.w3.org/2001/XMLSchema#decimal>
+	
+"11"^^<http://www.w3.org/2001/XMLSchema#integer>
+61665
+	
+<http://ex.org/country/Sao%20Tome%20and%20Principe>
+	
+Data Analyst Researcher
+	
+"63363.636363636363636363636364"^^<http://www.w3.org/2001/XMLSchema#decimal>
+	
+"11"^^<http://www.w3.org/2001/XMLSchema#integer>
+70689
+	
+<http://ex.org/country/Syrian%20Arab%20Republic>
+	
+Content SEO Strategist
+	
+"63333.333333333333333333333333"^^<http://www.w3.org/2001/XMLSchema#decimal>
+	
+"12"^^<http://www.w3.org/2001/XMLSchema#integer>
+65425
+	
+<http://ex.org/country/Solomon%20Islands>
+	
+Logistics Analyst
+	
+"63300.0"^^<http://www.w3.org/2001/XMLSchema#decimal>
+	
+"10"^^<http://www.w3.org/2001/XMLSchema#integer>
+58281
+	
+<http://ex.org/country/Portugal>
+	
+Urban Planner
+	
+"63285.714285714285714285714286"^^<http://www.w3.org/2001/XMLSchema#decimal>
+	
+"7"^^<http://www.w3.org/2001/XMLSchema#integer>

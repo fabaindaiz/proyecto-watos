@@ -4,7 +4,7 @@ from rdflib import Graph, Literal, RDF, URIRef, Namespace #basic RDF handling
 from rdflib.namespace import FOAF , XSD #most common namespaces
 import urllib.parse #for parsing strings to URI's
 
-MAX_ROWS = 1000
+MAX_ROWS = -1
 
 # Utils
 def clean(name: str) -> str:
